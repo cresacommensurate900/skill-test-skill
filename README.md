@@ -74,3 +74,8 @@ skill-test-skill/
     ├── spec-summary.md             ← Complete spec rules reference (loaded on demand)
     └── scoring-rubric.md           ← Detailed scoring criteria per check (loaded on demand)
 ```
+
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=youngfreeFJS/skill-test-skill&type=date&legend=top-left)](https://www.star-history.com/#youngfreeFJS/skill-test-skill&type=date&legend=top-left)
